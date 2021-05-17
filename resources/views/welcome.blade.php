@@ -10,10 +10,9 @@
   <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.2.x/dist/index.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
-  <title>Project Template | Sidebar</title>
+  <title>Notre Dame of Marbel University | SATP</title>
 </head>
 <body class="antialiased">
-
 
 <!-- Sidebar 1 -->
     <main x-data="{sideBar: $screen('lg') === true ? true : false}" class="flex flex-col h-screen min-h-screen overflow-scroll bg-gray-50">
