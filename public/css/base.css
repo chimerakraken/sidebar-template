@@ -1,0 +1,23 @@
+/* 
+* {
+    line-height: 1;
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: grid;
+    font-family: "Inter", sans-serif;
+    grid-template-columns: 280px 1fr;
+  }
+   */
+   @font-face {
+    font-family: 'Lobster-Regular';
+    src: url('/fonts/Lobster-Regular.ttf') format('truetype');
+  }
+
+  [x-cloak] {
+    display: none;
+  }
+  
+
