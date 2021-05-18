@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 
 Route::get('/rate', 'BaseController@StudentRating');
+
+Route::get('/ratingsheet', 'BaseController@RatingSheet');
