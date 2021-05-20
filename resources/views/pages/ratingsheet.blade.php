@@ -5,7 +5,6 @@
 
 <div class="min-h-screen p-6 lg:px-60 md:px-52">
     {{ $profname }}
-
     <div>
         <div class="hidden sm:block mt-52" aria-hidden="true">
             <div class="py-5">
@@ -698,25 +697,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q24desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q24desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q24desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q24desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q24desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q24desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -725,25 +724,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q25desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q25desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q25desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q25desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q25desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q25desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -752,25 +751,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q26desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q26desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q26desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q26desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q26desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q26desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -779,25 +778,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q27desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q27desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q27desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q27desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q27desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q27desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -806,25 +805,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q28desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q28desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q28desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q28desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q28desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q28desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -833,25 +832,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q29desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q29desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q29desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q29desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q29desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q29desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -860,25 +859,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q30desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q30desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q30desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q30desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q30desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q30desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -887,25 +886,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q31desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q31desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q31desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q31desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q31desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q31desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -914,25 +913,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q32desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q32desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q32desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q32desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q32desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q32desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -941,25 +940,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q33desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q33desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q33desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q33desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q33desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q33desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
             <div class="col-span-5 sm:col-span-5 lg:col-span-3">
@@ -968,25 +967,25 @@
             <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
                 <div class="" x-id="q1" x-data="{ rated: 0}">
                     <div class="inline-block">
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q23desc').name = 'Very Rarely'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 1; $component('q34desc').name = 'Very Rarely'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 1 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q23desc').name = 'Sometimes'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 2; $component('q34desc').name = 'Sometimes'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 2 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q23desc').name = 'Regularly'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 3; $component('q34desc').name = 'Regularly'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 3 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q23desc').name = 'Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 4; $component('q34desc').name = 'Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 4 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                            </button>
-                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q23desc').name = 'Very Often'">
+                           <button class="focus:outline-none mx-0.5" @click=" rated = 5; $component('q34desc').name = 'Very Often'">
                                <svg class="w-6 h-6 text-gray-300" :class="[rated >= 5 ? 'text-amber-500' : 'text-gray-300']" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>            
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q23desc" x-data="{name: ''}">
+            <div class="col-span-5 sm:col-span-5 lg:col-span-1 mb-6 lg:mb-0 hidden  lg:block" x-id="q34desc" x-data="{name: ''}">
                 <span class="w-full text-lime-900" x-text="name"></span>
             </div>
         </div>
@@ -1003,62 +1002,61 @@
         </div>
         <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
             {{-- grid work around for svg animations --}}
-            <div class="grid grid-cols-6 lg:grid-cols-5 px-0 gap-2 lg:gap-0 lg:px-10 pt-2 lg:pt-5">
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+            <div  class="grid grid-cols-6 lg:grid-cols-5 px-0 gap-2 lg:gap-0 lg:px-10 pt-2 lg:pt-5">
+                <div x-id="q1toggle1" x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
+                    <span @click="checked == true ? checked = false : checked = true; $component('q1toggle2').checked = false; $component('q1toggle3').checked = false; $component('q1toggle4').checked = false; $component('q1toggle5').checked = false" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-id="q1toggle2" x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a great extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-id="q1toggle3" x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a moderate extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class="cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-id="q1toggle4" x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a slight extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-id="q1toggle5" x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">None at all</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
             </div>
         </div>
@@ -1068,62 +1066,61 @@
         <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
             {{-- grid work around for svg animations --}}
             <div class="grid grid-cols-6 lg:grid-cols-5 px-0 gap-2 lg:gap-0 lg:px-10  pt-2 lg:pt-5">
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a great extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a moderate extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a slight extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">None at all</span>
-                </div> 
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
+                </div>  
             </div>
         </div>
         <div class="col-span-5 sm:col-span-5 lg:col-span-3 mt-5 lg:mt-3">
@@ -1132,61 +1129,60 @@
         <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
             {{-- grid work around for svg animations --}}
             <div class="grid grid-cols-6 lg:grid-cols-5 px-0 gap-2 lg:gap-0 lg:px-10  pt-2 lg:pt-5">
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a great extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a moderate extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a slight extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">None at all</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
             </div>
         </div>
@@ -1196,61 +1192,60 @@
         <div class="col-span-5 sm:col-span-5 lg:col-span-1 my-3 lg:my-0 sm:my-3 text-center lg:text-left">  
             {{-- grid work around for svg animations --}}
             <div class="grid grid-cols-6 lg:grid-cols-5 px-0 gap-2 lg:gap-0 lg:px-10 pt-2 lg:pt-5">
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a great extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a moderate extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a slight extent</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
-
-                <div class="grid grid-cols-10 col-span-3 lg:col-span-1">
+                <div x-data="{checked: false}" class="grid grid-cols-10 col-span-3 lg:col-span-1">
                     <div>
-                        <label class="checkbox path inline-block">
-                            <input type="checkbox" class=" cursor-pointer">
+                        <label class="checkbox bounce inline-block">
+                            <input x-bind:checked="checked" type="checkbox" class="cursor-pointer">
                             <svg viewBox="0 0 21 21">
-                                <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                                <polyline points="5 10.75 8.5 14.25 16 6"></polyline>
                             </svg>
                         </label>
                     </div>
-                    <span class="absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">None at all</span>
+                    <span @click="checked == true ? checked = false : checked = true" class=" cursor-pointer absolute text-base leading-6 text-lime-900 inline-block ml-6 lg:ml-6 -mt-0.5">To a full extent</span>
                 </div> 
             </div>
         </div>
