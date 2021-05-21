@@ -14,7 +14,7 @@
     @yield('content')
 </body>
 </html>
-<script src="{{asset('js/base.js')}}"></script>
+<script src="{{ asset('plugin/moment.js') }}" ></script>
 <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.2.x/dist/index.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
