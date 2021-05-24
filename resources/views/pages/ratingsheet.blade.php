@@ -5,9 +5,9 @@
 
 <div class="min-h-screen p-6 lg:px-60 md:px-52">
     {{ $profname }}
-    <div class=" text-center pt-10 lg:pt-20 relative">
-        <img src="{{asset('img/ndmu-seal-small.png')}}" style="top: 4.5rem;" class=" w-36 h-36 absolute -left-10  hidden md:hidden 2xl:left-28 2xl:block lg:block" alt="">
-        <img src="{{asset('img/green-university.jpg')}}" class=" w-36 h-28 absolute top-20  -right-10 2xl:right-24 hidden md:hidden 2xl:block lg:block" alt="">
+    <div class=" text-center pt-32 lg:pt-32 relative">
+        <img src="{{asset('img/ndmu-seal-small.png')}}" style="top: 6.0rem;" class=" w-36 h-36 absolute -left-10  hidden md:hidden 2xl:left-28 2xl:block lg:block" alt="">
+        <img src="{{asset('img/green-university.jpg')}}" class=" w-36 h-28 absolute top-28  -right-10 2xl:right-24 hidden md:hidden 2xl:block lg:block" alt="">
         <h3 class=" text-2xl lg:text-3xl font-medium leading-6 text-lime-900 uppercase tracking-widest">Notre Dame of Marbel University</h3>
         <h3 class=" text-xl leading-6 text-lime-900 mt-3">City of Koronadal</h3>
         <h3 class=" text-xl leading-6 text-lime-900 mt-3">South Cotabato Province, Philippines</h3>
