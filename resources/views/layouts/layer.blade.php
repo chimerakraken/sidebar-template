@@ -22,7 +22,7 @@
           <div class="relative w-full -mt-1  mx-0 h-10">
             <div class="absolute right-7">
               <div x-data="{open:false}" class="flex cursor-pointer" x-id="profilebtn"  @click="open === true ? open=false : open=true" @click.away="open = false">
-                <img  src="https://www.callcentrehelper.com/images/stories/2021/04/employee-experience-happy-agent-760.jpg" class=" w-9 h-9 mt-1  rounded-full ring ring-lime-100 ml-2" alt="">
+                <img  src="https://images.unsplash.com/photo-1617791636474-cad64fefa7f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=692&q=80" class=" w-9 h-9 mt-1  rounded-full ring ring-lime-100 ml-2" alt="">
                 <div x-show="$component('profilebtn').open" class=" z-10 origin-top-right absolute right-7 mt-14 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                   <div class="relative flex justify-end px-3">
                     <div class="bg-lime-200 absolute w-3 h-3 transform rotate-45 -mt-1 "></div>
